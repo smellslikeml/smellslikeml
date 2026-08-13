@@ -1,17 +1,39 @@
-### Terry Rodriguez
+# Terry Rodriguez
 
-Co-founder and CTO of [Remyx AI](https://remyx.ai). Mathematics at UC Berkeley and UNC Chapel Hill, then ten years of production ML at Riot Games, Tubi, Robust.AI, and now Remyx. Computer vision, multimodal models, robotics, and numerical computing.
+Co-founder & CTO at [Remyx AI](https://remyx.ai).
 
-We build [Outrider](https://github.com/marketplace/actions/remyx-outrider), which implements new ML research against real codebases and sends the useful parts upstream. [Riemannian-preconditioned LoRA](https://github.com/huggingface/peft/pull/3382) is merged into `huggingface/peft`, with [Super-Tuning](https://github.com/huggingface/peft/pull/3518), [ECoT reasoning](https://github.com/huggingface/lerobot/pull/4036), and [STARE](https://github.com/huggingface/trl/pull/6167) in review.
+I build production ML systems across recommendation, language models, generative AI, multimodal ML, agents, computer vision, robotics, and ML infrastructure.
 
-I maintain [VQASynth](https://github.com/remyxai/VQASynth), which turns ordinary images into spatial reasoning datasets and trains the [SpaceLLaVA](https://huggingface.co/remyxai) models, and [ActionAI](https://github.com/smellslikeml/ActionAI), real-time activity recognition on edge hardware, running since 2019.
+## Open source
 
-On the side I write numerics, most recently [nonlinear Schrödinger evolution on a lumpy torus](https://smellslikeml.github.io/nls-lumpy-torus/). I have been publishing ML experiments at [smellslike.ml](https://smellslike.ml) since 2018.
+[![ActionAI](https://img.shields.io/github/stars/smellslikeml/ActionAI?style=flat-square&logo=github&label=ActionAI)](https://github.com/smellslikeml/ActionAI)  
+Real-time activity detection using body keypoints. Started in 2019 and still maintained.
 
-<p>
-  <a href="https://github.com/smellslikeml/ActionAI"><img alt="ActionAI stars" src="https://img.shields.io/github/stars/smellslikeml/ActionAI?style=flat-square&labelColor=0d1117&color=E23E3E&label=ActionAI&logo=github"></a>
-  <a href="https://github.com/remyxai/VQASynth"><img alt="VQASynth stars" src="https://img.shields.io/github/stars/remyxai/VQASynth?style=flat-square&labelColor=0d1117&color=E23E3E&label=VQASynth&logo=github"></a>
-  <a href="https://huggingface.co/remyxai"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97-remyxai-FFD21E?style=flat-square&labelColor=0d1117"></a>
-</p>
+[![VQASynth](https://img.shields.io/github/stars/remyxai/VQASynth?style=flat-square&logo=github&label=VQASynth)](https://github.com/remyxai/VQASynth)  
+Open source pipeline for generating spatial reasoning datasets from images.
 
-[remyx.ai](https://remyx.ai) · [smellslike.ml](https://smellslike.ml) · [writing](https://remyxai.substack.com) · [linkedin](https://www.linkedin.com/in/terry-j-rodriguez)
+[![Outrider](https://img.shields.io/badge/GitHub%20Marketplace-Outrider-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/remyx-outrider)  
+Finds promising techniques for a codebase and drafts testable implementations.
+
+Outrider has helped produce contributions to
+[PEFT](https://github.com/huggingface/peft),
+[LeRobot](https://github.com/huggingface/lerobot), and
+[TRL](https://github.com/huggingface/trl), with work already
+[merged into PEFT](https://github.com/huggingface/peft/pull/3382).
+
+## Models
+
+[![Model on Hugging Face](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-md.svg)](https://huggingface.co/remyxai)
+[![SpaceThinker downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fremyxai%2FSpaceThinker-Qwen2.5VL-3B&query=%24.downloads&label=SpaceThinker%20downloads&color=FFD21E&style=flat-square)](https://huggingface.co/remyxai/SpaceThinker-Qwen2.5VL-3B)
+
+Selected spatial reasoning models from Remyx
+
+- [SpaceThinker](https://huggingface.co/remyxai/SpaceThinker-Qwen2.5VL-3B)
+- [SpaceQwen](https://huggingface.co/remyxai/SpaceQwen2.5-VL-3B-Instruct)
+- [SpaceLLaVA](https://huggingface.co/remyxai/SpaceLLaVA)
+
+## Background
+
+10+ years building production ML at Riot Games, Tubi, Robust.AI, and Remyx. Mathematics at UC Berkeley and UNC Chapel Hill.
+
+[remyx.ai](https://remyx.ai) · [Hugging Face](https://huggingface.co/remyxai) · [smellslike.ml](https://smellslike.ml) · [LinkedIn](https://www.linkedin.com/in/terry-j-rodriguez)
