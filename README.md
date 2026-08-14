@@ -25,9 +25,19 @@ I build production ML across **spatial-reasoning VLMs**, **agentic research auto
 <table>
 <tr>
 <td width="50%"><img src="https://github.com/smellslikeml/ActionAI/raw/HEAD/assets/ActionAI_main.gif" width="100%"><br><sub><b>ActionAI</b> — real-time activity recognition from body keypoints, on the edge</sub></td>
-<td width="50%"><img src="https://github.com/smellslikeml/nls-lumpy-torus/raw/HEAD/nls_lumpy_torus.gif" width="100%"><br><sub><b>nls-lumpy-torus</b> — a spectral-geometry gallery for verification-grounded agent inference</sub></td>
+<td width="50%"><img src="https://github.com/smellslikeml/nls-lumpy-torus/raw/HEAD/nls_selftrap_collapse_torus.gif" width="100%"><br><sub><b>nls-lumpy-torus</b> — mass-critical collapse on a curved manifold, from the spectral-geometry gallery</sub></td>
 </tr>
 </table>
+
+## ⚙️ The engines
+
+**[VQASynth](https://github.com/remyxai/VQASynth)** — the open pipeline that turns raw images into spatial-reasoning datasets: CLIP retrieval → RAM/LLaVA captions → GroundingDINO/CLIPSeg → SAM → ZoeDepth → RANSAC planes.
+
+<p align="center"><img src="https://github.com/remyxai/VQASynth/raw/HEAD/assets/VQASynth-diagram.png" width="100%"></p>
+
+**[Outrider](https://github.com/remyxai/outrider)** — brief-to-PR research automation: arXiv → rank & license-enrich → select & preflight gates → draft → fidelity / convention / test audits → PR, with automated + human refinement loops and full run telemetry.
+
+<p align="center"><img src="assets/outrider-pipeline.png" width="100%"></p>
 
 ## 🛰️ Open models & datasets — spatial reasoning at scale
 Fine-tuned VLMs for quantitative **spatial reasoning** (distances, sizes, directions — for robotics & embodied AI) and the synthetic-data pipelines that train them.
@@ -49,6 +59,8 @@ Fine-tuned VLMs for quantitative **spatial reasoning** (distances, sizes, direct
 [![Outrider](https://img.shields.io/badge/GitHub%20Marketplace-Outrider-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/remyx-outrider) — a **brief-to-PR** research harness: scouts arXiv for a codebase and drafts *testable* implementations into existing call sites. ([demo ▶️](https://www.youtube.com/watch?v=N_FNfZ71s2I))
 
 [![nls-lumpy-torus](https://img.shields.io/badge/gallery-nls--lumpy--torus-8a4fb0?style=flat-square&logo=github)](https://smellslikeml.github.io/nls-lumpy-torus/) — a spectral-geometry NLS/Gross–Pitaevskii solver + a gallery of numerical experiments (solitons, analog gravity & cosmology, quantum chaos, topological & Floquet transport), packaged as an **MCP toolkit for verification-grounded agent inference**.
+
+🧪 **[Automate Everything](https://huggingface.co/collections/remyxai/automate-everything)** — a collection of agent Spaces (video processing · data extraction · integer-programming optimization).
 
 ## 🔀 Upstream contributions
 Often drafted with **Outrider**, then verified and refined:
