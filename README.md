@@ -57,7 +57,7 @@ Fine-tuned VLMs for quantitative **spatial reasoning** (distances, sizes, direct
 
 [![VQASynth](https://img.shields.io/github/stars/remyxai/VQASynth?style=flat-square&logo=github&label=VQASynth)](https://github.com/remyxai/VQASynth) — compose multimodal spatial-reasoning datasets from raw images. 🎹
 
-[![FFMPerative](https://img.shields.io/github/stars/remyxai/FFMPerative?style=flat-square&logo=github&label=FFMPerative)](https://github.com/remyxai/FFMPerative) — chat to compose video.
+[![FFMPerative](https://img.shields.io/github/stars/remyxai/FFMPerative?style=flat-square&logo=github&label=FFMPerative)](https://github.com/remyxai/FFMPerative) — chat to compose video. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/149byzCNd17dAehVuWXkiFQ2mVe_icLCa)
 
 [![Outrider](https://img.shields.io/badge/GitHub%20Marketplace-Outrider-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/remyx-outrider) — a **brief-to-PR** research harness: scouts arXiv for a codebase and drafts *testable* implementations into existing call sites. ([demo ▶️](https://www.youtube.com/watch?v=N_FNfZ71s2I))
 
