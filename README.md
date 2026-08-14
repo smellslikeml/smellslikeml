@@ -27,8 +27,8 @@ Open source contributions across **spatial-reasoning VLMs**, **agentic research 
 
 <table>
 <tr>
-<td width="50%"><img src="https://github.com/smellslikeml/ActionAI/raw/HEAD/assets/ActionAI_main.gif" width="100%"><br><sub><b>ActionAI</b> — real-time activity recognition from body keypoints, on the edge</sub></td>
-<td width="50%"><img src="https://github.com/smellslikeml/nls-lumpy-torus/raw/HEAD/nls_selftrap_collapse_torus.gif" width="100%"><br><sub><b>nls-lumpy-torus</b> — mass-critical collapse on a curved manifold, from the spectral-geometry gallery</sub></td>
+<td width="50%"><img src="https://github.com/smellslikeml/ActionAI/raw/HEAD/assets/ActionAI_main.gif" width="100%"><br><sub><b>ActionAI</b> — real-time multi-person, spatio-temporally localized activity recognition from body keypoints, on the edge</sub></td>
+<td width="50%"><img src="https://github.com/smellslikeml/nls-lumpy-torus/raw/HEAD/nls_selftrap_collapse_torus.gif" width="100%"><br><sub><b>nls-lumpy-torus</b> — exploring interaction of geometry and dispersion to observe new blowup phenomena</sub></td>
 </tr>
 </table>
 
