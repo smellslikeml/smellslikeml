@@ -2,7 +2,7 @@
 
 **Co-founder & CTO, [Remyx AI](https://remyx.ai)** — experiment orchestration for AI teams.
 
-I build production ML across **spatial-reasoning VLMs**, **agentic research automation**, generative & multimodal AI, computer vision, robotics, and ML infrastructure — and I like to open-source it.
+Open source contributions across **spatial-reasoning VLMs**, **agentic research automation**, generative & multimodal AI, computer vision, robotics, and ML infrastructure.
 
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-remyxai-FFD21E?style=flat-square)](https://huggingface.co/remyxai)
 [![Docker Hub](https://img.shields.io/badge/Docker%20Hub-remyxai-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/u/remyxai)
