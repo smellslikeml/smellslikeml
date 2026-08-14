@@ -5,10 +5,13 @@
 I build production ML across **spatial-reasoning VLMs**, **agentic research automation**, generative & multimodal AI, computer vision, robotics, and ML infrastructure — and I like to open-source it.
 
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-remyxai-FFD21E?style=flat-square)](https://huggingface.co/remyxai)
+[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-remyxai-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/u/remyxai)
 [![Blog](https://img.shields.io/badge/Blog-smellslike.ml-1f6feb?style=flat-square&logo=rss&logoColor=white)](https://smellslike.ml)
+[![Substack](https://img.shields.io/badge/Substack-Myx'd%20Results-FF6719?style=flat-square&logo=substack&logoColor=white)](https://remyxai.substack.com/)
 [![Hackster](https://img.shields.io/badge/Hackster-terry--rodriguez-2E9FE6?style=flat-square&logo=hackster&logoColor=white)](https://www.hackster.io/terry-rodriguez)
 [![X](https://img.shields.io/badge/X-@smellslikeml-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/smellslikeml)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-terry--j--rodriguez-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/terry-j-rodriguez/)
+[![Discord](https://img.shields.io/badge/Discord-Remyx%20AI-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/invite/b2yGuCNpuC)
 [![Alchemist Accelerator](https://img.shields.io/badge/backed%20by-Alchemist%20Accelerator-6E4AFF?style=flat-square)](https://www.alchemistaccelerator.com/)
 [![NVIDIA Inception](https://img.shields.io/badge/NVIDIA-Inception-76B900?style=flat-square&logo=nvidia&logoColor=white)](https://www.nvidia.com/en-us/startups/)
 
@@ -81,4 +84,4 @@ Often drafted with **Outrider**, then verified and refined:
 **Remyx AI** is an [**Alchemist Accelerator**](https://www.alchemistaccelerator.com/) company (investors include Generationship & Roble Ventures).
 
 ## 🔗 Connect
-[remyx.ai](https://remyx.ai) · [🤗 remyxai](https://huggingface.co/remyxai) · [smellslike.ml](https://smellslike.ml) · [Hackster](https://www.hackster.io/terry-rodriguez) · [YouTube](https://www.youtube.com/watch?v=N_FNfZ71s2I) · [X](https://x.com/smellslikeml) · [LinkedIn](https://www.linkedin.com/in/terry-j-rodriguez/) · [Reddit](https://www.reddit.com/user/remyxai/)
+[remyx.ai](https://remyx.ai) · [🤗 remyxai](https://huggingface.co/remyxai) · [Docker Hub](https://hub.docker.com/u/remyxai) · [smellslike.ml](https://smellslike.ml) · [Substack](https://remyxai.substack.com/) · [Hackster](https://www.hackster.io/terry-rodriguez) · [YouTube](https://www.youtube.com/watch?v=N_FNfZ71s2I) · [Discord](https://discord.com/invite/b2yGuCNpuC) · [X](https://x.com/smellslikeml) · [LinkedIn](https://www.linkedin.com/in/terry-j-rodriguez/) · [Reddit](https://www.reddit.com/user/remyxai/)
