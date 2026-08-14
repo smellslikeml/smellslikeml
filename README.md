@@ -1,6 +1,6 @@
 # Terry Rodriguez
 
-**Co-founder & CTO, [Remyx AI](https://remyx.ai)** — building the workbench for AI engineers.
+**Co-founder & CTO, [Remyx AI](https://remyx.ai)** — experiment orchestration for AI teams.
 
 I build production ML across **spatial-reasoning VLMs**, **agentic research automation**, generative & multimodal AI, computer vision, robotics, and ML infrastructure — and I like to open-source it.
 
@@ -23,7 +23,7 @@ I build production ML across **spatial-reasoning VLMs**, **agentic research auto
 </p>
 
 ### 📊 By the numbers
-🤗 **283K+ downloads** across **70+ open models & datasets** ([@remyxai](https://huggingface.co/remyxai) — 21 models · 50 datasets)  ·  ⭐ **1.4K+ GitHub stars** across open-source projects  ·  🔀 merged upstream into **Hugging Face PEFT**
+🤗 **283K+ downloads** across **70+ open models & datasets** ([@remyxai](https://huggingface.co/remyxai) — 21 models · 50 datasets)  ·  ⭐ **1.4K+ GitHub stars** across open-source projects
 
 <table>
 <tr>
@@ -42,7 +42,7 @@ I build production ML across **spatial-reasoning VLMs**, **agentic research auto
 
 <p align="center"><img src="assets/outrider-pipeline.png" width="100%"></p>
 
-## 🛰️ Open models & datasets — spatial reasoning at scale
+## 🛰️ Open models & datasets
 Fine-tuned VLMs for quantitative **spatial reasoning** (distances, sizes, directions — for robotics & embodied AI) and the synthetic-data pipelines that train them.
 
 - **[SpaceQwen2.5-VL-3B](https://huggingface.co/remyxai/SpaceQwen2.5-VL-3B-Instruct)** — grounded spatial VQA · **150K+ downloads**, the flagship
@@ -63,9 +63,7 @@ Fine-tuned VLMs for quantitative **spatial reasoning** (distances, sizes, direct
 
 [![nls-lumpy-torus](https://img.shields.io/badge/gallery-nls--lumpy--torus-8a4fb0?style=flat-square&logo=github)](https://smellslikeml.github.io/nls-lumpy-torus/) — a spectral-geometry NLS/Gross–Pitaevskii solver + a gallery of numerical experiments (solitons, analog gravity & cosmology, quantum chaos, topological & Floquet transport), packaged as an **MCP toolkit for verification-grounded agent inference**.
 
-🧪 **[Automate Everything](https://huggingface.co/collections/remyxai/automate-everything)** — a collection of agent Spaces (video processing · data extraction · integer-programming optimization).
-
-## 🔀 Upstream contributions
+## 🔀 Recent upstream contributions
 Often drafted with **Outrider**, then verified and refined:
 - **[huggingface/peft](https://github.com/huggingface/peft/pull/3382)** — *Riemannian-preconditioned LoRA optimizer* (**merged** ✅)
 - **[DCDmllm/InstructSAM](https://github.com/DCDmllm/InstructSAM/pull/4)** — inference fix + native C++/ggml runtime docs (**merged** ✅)
