@@ -70,7 +70,7 @@ Often drafted with **Outrider**, then verified and refined:
 - in flight toward **diffusers** (a training-free 4K FLUX community pipeline), **LeRobot**, and **TRL**
 
 ## 📣 Talks, events & media
-- 🏆 **Awards:** [#TFWorld TF 2.0 Challenge — **Winner**](https://devpost.com/software/everybody-dance-faster) (*Everybody Dance Faster* — real-time motion-transfer booth, EdgeTPU + TF 2.0) · [NVIDIA AI-at-the-Edge Challenge — **2nd prize**](https://www.hackster.io/smellslikeml/saving-bandwidth-with-anomaly-detection-16eb67) (*Saving Bandwidth with Anomaly Detection*)
+- 🏆 **Awards:** [#TFWorld TF 2.0 Challenge — **Winner**](https://devpost.com/software/everybody-dance-faster) (*Everybody Dance Faster* — real-time motion-transfer booth, EdgeTPU + TF 2.0) · [NVIDIA AI-at-the-Edge Challenge — **2nd prize**](https://www.hackster.io/smellslikeml/saving-bandwidth-with-anomaly-detection-16eb67) (*Saving Bandwidth with Anomaly Detection*) · [Snips.ai *Smart Homes on the Edge* — **2nd place**](https://www.hackster.io/yogai/yogai-smart-personal-trainer-f53744) (2019)
 - 🎪 **Hosted:** [Experiment 2025](https://experiment.remyx.ai/) — Remyx's inaugural event, [hundreds in attendance](https://luma.com/experiment-2025)
 - 🎤 **Conferences (2024–2025):** [ODSC West 2024](https://odsc.com/blog/speaker/terry-rodriguez/) (*LLMOps & MLOps* track) · GitHub Universe · AI Agent Builders Summit — SF
 - 🎙️ **Podcasts:** Generationship (Heavybit) — [Ep. 20 *Smells Like ML*](https://www.heavybit.com/library/podcasts/generationship/ep-20-smells-like-ml-with-salma-mayorquin-and-terry-rodriguez-of-remyx-ai) & [Ep. 40 *ExperimentOps*](https://www.heavybit.com/library/podcasts/generationship/ep-40-experimentops-with-salma-mayorquin-of-remyx-ai) · [Adventures in ML (ML-149)](https://topenddevs.com/podcasts/adventures-in-machine-learning/adaptive-industry-ml-challenges-automation-and-model-applications-ml-149) · Code & Caffeine
@@ -78,7 +78,10 @@ Often drafted with **Outrider**, then verified and refined:
 - ▶️ **Demo:** [GitRank — Research to Testable PRs in Minutes](https://www.youtube.com/watch?v=N_FNfZ71s2I)
 
 ## 🧭 Background
-10+ years building production ML — **Riot Games, Tubi, Robust.AI, Remyx**. Mathematics at **UC Berkeley** & **UNC Chapel Hill**.
+10+ years building production ML — **Riot Games**, **Tubi** (ranking & recommenders), **Robust.AI** (multi-camera 3D perception), and healthcare NLP (clinical IR & risk-stratification, presented at **Stanford BMIR**) — before co-founding **Remyx AI**. Along the way, a developer advocate partnering with **NVIDIA, Intel, Arduino & the Raspberry Pi Foundation**.
+
+**MA in Mathematics, UC Berkeley** · **BS in Mathematics, UNC Chapel Hill** — where I studied trapping & blow-up phenomena for **nonlinear PDEs on manifolds** via finite elements, the same physics behind the [nls-lumpy-torus](https://smellslikeml.github.io/nls-lumpy-torus/) gallery.
+
 **Remyx AI** is an [**Alchemist Accelerator**](https://www.alchemistaccelerator.com/) company (investors include Generationship & Roble Ventures).
 
 ## 🔗 Connect
