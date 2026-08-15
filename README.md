@@ -67,7 +67,8 @@ Fine-tuned VLMs for quantitative **spatial reasoning** (distances, sizes, direct
 Often drafted with **Outrider**, then verified and refined:
 - **[huggingface/peft](https://github.com/huggingface/peft/pull/3382)** — *Riemannian-preconditioned LoRA optimizer* (**merged** ✅)
 - **[DCDmllm/InstructSAM](https://github.com/DCDmllm/InstructSAM/pull/4)** — inference fix + native C++/ggml runtime docs (**merged** ✅)
-- in flight toward **diffusers** (a training-free 4K FLUX community pipeline), **LeRobot**, and **TRL**
+- **[huggingface/diffusers](https://github.com/huggingface/diffusers/pull/14480)** — *HRDiT: training-free 4K high-resolution generation for FLUX.1-dev* (community pipeline, in review)
+- in flight toward **LeRobot** and **TRL**
 
 ## 📣 Talks, events & media
 - 🏆 **Awards:** [#TFWorld TF 2.0 Challenge — **Winner**](https://devpost.com/software/everybody-dance-faster) (*Everybody Dance Faster* — real-time motion-transfer booth, EdgeTPU + TF 2.0) · [NVIDIA AI-at-the-Edge Challenge — **2nd prize**](https://www.hackster.io/smellslikeml/saving-bandwidth-with-anomaly-detection-16eb67) (*Saving Bandwidth with Anomaly Detection*) · [Snips.ai *Smart Homes on the Edge* — **2nd place**](https://www.hackster.io/yogai/yogai-smart-personal-trainer-f53744) (2019)
