@@ -68,7 +68,8 @@ Often drafted with **Outrider**, then verified and refined:
 - **[huggingface/peft](https://github.com/huggingface/peft/pull/3382)** — *Riemannian-preconditioned LoRA optimizer* (**merged** ✅)
 - **[huggingface/peft](https://github.com/huggingface/peft/pull/3518)** — *Super-Tuning: a new PEFT method* (in review)
 - **[DCDmllm/InstructSAM](https://github.com/DCDmllm/InstructSAM/pull/4)** — inference fix + native C++/ggml runtime docs (**merged** ✅)
-- **[huggingface/diffusers](https://github.com/huggingface/diffusers/pull/14480)** — *HRDiT: training-free 4K high-resolution generation for FLUX.1-dev* (community pipeline, in review)
+- **[huggingface/diffusers](https://github.com/huggingface/diffusers/pull/14480)** — *HRDiT: training-free 4K generation for FLUX* (community pipeline, in review)
+- **[huggingface/diffusers](https://github.com/huggingface/diffusers/issues/14520)** — *DyPE + spectral attention: training-free 4K hook for FLUX* (placement proposal)
 - in flight toward **LeRobot** and **TRL**
 
 ## 📣 Talks, events & media
