@@ -70,6 +70,7 @@ Often drafted with **Outrider**, then verified and refined:
 - **[DCDmllm/InstructSAM](https://github.com/DCDmllm/InstructSAM/pull/4)** — inference fix + native C++/ggml runtime docs (**merged** ✅)
 - **[huggingface/diffusers](https://github.com/huggingface/diffusers/pull/14480)** — *HRDiT: training-free 4K generation for FLUX* (community pipeline, in review)
 - **[huggingface/diffusers](https://github.com/huggingface/diffusers/issues/14520)** — *DyPE + spectral attention: training-free 4K hook for FLUX* (placement proposal)
+- **[sgl-project/sglang](https://github.com/sgl-project/sglang/issues/35987)** — *Batch-wise Adaptive Pruning: training-free FFN pruning running under CUDA graphs* (RFC; working impl on [our fork](https://github.com/smellslikeml/sglang/tree/feature/bwap-upstream))
 - in flight toward **LeRobot** and **TRL**
 
 ## 📣 Talks, events & media
