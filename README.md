@@ -38,7 +38,7 @@ Open source contributions across **spatial-reasoning VLMs**, **agentic research 
 
 <p align="center"><img src="https://github.com/remyxai/VQASynth/raw/HEAD/assets/VQASynth-diagram.png" width="100%"></p>
 
-**[Outrider](https://github.com/remyxai/outrider)** — keeps the repo you maintain improving: discovers, implements, and validates your next high-fit change as a review-ready draft PR *you* decide on. arXiv / query / brief → rank & license-enrich → preflight gates → draft into a real call site → fidelity / convention / test audits → PR, with human + automated refinement loops and full run telemetry.
+**[Outrider](https://github.com/remyxai/outrider)** — *a coding-agent harness for continuous contribution.* Discovers, implements, and validates your next high-fit change as a review-ready draft PR *you* decide on. arXiv / query / brief → rank & license-enrich → preflight gates → draft into a real call site → fidelity / convention / test audits → PR, with human + automated refinement loops and full run telemetry.
 
 <p align="center"><img src="assets/outrider-pipeline.png" width="100%"></p>
 
@@ -59,7 +59,7 @@ Fine-tuned VLMs for quantitative **spatial reasoning** (distances, sizes, direct
 
 [![FFMPerative](https://img.shields.io/github/stars/remyxai/FFMPerative?style=flat-square&logo=github&label=FFMPerative)](https://github.com/remyxai/FFMPerative) — chat to compose video. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/149byzCNd17dAehVuWXkiFQ2mVe_icLCa)
 
-[![Outrider](https://img.shields.io/badge/GitHub%20Marketplace-Outrider-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/remyx-outrider) — the GitHub Action that keeps your repo improving: it discovers, implements, and validates your next great idea, wired into a real call site and delivered as a review-ready draft PR you review and merge. ([demo ▶️](https://www.youtube.com/watch?v=N_FNfZ71s2I))
+[![Outrider](https://img.shields.io/badge/GitHub%20Marketplace-Outrider-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/remyx-outrider) — a coding-agent harness for continuous contribution, as a GitHub Action: it discovers, implements, and validates your next great idea, wired into a real call site and delivered as a review-ready draft PR you review and merge. ([demo ▶️](https://www.youtube.com/watch?v=N_FNfZ71s2I))
 
 [![nls-lumpy-torus](https://img.shields.io/badge/gallery-nls--lumpy--torus-8a4fb0?style=flat-square&logo=github)](https://smellslikeml.github.io/nls-lumpy-torus/) — a spectral-geometry NLS/Gross–Pitaevskii solver + a gallery of numerical experiments (solitons, analog gravity & cosmology, quantum chaos, topological & Floquet transport), packaged as an **MCP toolkit for verification-grounded agent inference**.
 
@@ -68,8 +68,9 @@ Often drafted with **Outrider**, then verified and refined:
 - **[huggingface/peft](https://github.com/huggingface/peft/pull/3382)** — *Riemannian-preconditioned LoRA optimizer* (**merged** ✅)
 - **[huggingface/peft](https://github.com/huggingface/peft/pull/3518)** — *Super-Tuning: a new PEFT method* (in review)
 - **[DCDmllm/InstructSAM](https://github.com/DCDmllm/InstructSAM/pull/4)** — inference fix + native C++/ggml runtime docs (**merged** ✅)
-- **[huggingface/diffusers](https://github.com/huggingface/diffusers/pull/14480)** — *HRDiT: training-free 4K generation for FLUX* (community pipeline, in review)
-- **[huggingface/diffusers](https://github.com/huggingface/diffusers/issues/14520)** — *DyPE + spectral attention: training-free 4K hook for FLUX* (placement proposal)
+- **[huggingface/diffusers#14480](https://github.com/huggingface/diffusers/pull/14480)** — *HRDiT: training-free 4K for FLUX* → [community modular pipeline](https://huggingface.co/remyxai/hrdit-flux-modular)
+- **[huggingface/diffusers#14520](https://github.com/huggingface/diffusers/issues/14520)** — *DyPE (+ SEGA spectral): training-free ultra-high-res for FLUX* → [community modular pipeline](https://huggingface.co/remyxai/dype-flux-modular)
+- **[huggingface/diffusers#10141](https://github.com/huggingface/diffusers/issues/10141)** — *PuLID: training-free identity personalization for FLUX* → [community modular pipeline](https://huggingface.co/remyxai/pulid-flux-modular)
 - **[sgl-project/sglang](https://github.com/sgl-project/sglang/issues/35987)** — *Batch-wise Adaptive Pruning: training-free FFN pruning running under CUDA graphs* (RFC; working impl on [our fork](https://github.com/smellslikeml/sglang/tree/feature/bwap-upstream))
 - in flight toward **LeRobot** and **TRL**
 
