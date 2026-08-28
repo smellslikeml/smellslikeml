@@ -68,10 +68,13 @@ Often drafted with **Outrider**, then verified and refined:
 - **[huggingface/peft](https://github.com/huggingface/peft/pull/3382)** — *Riemannian-preconditioned LoRA optimizer* (**merged** ✅)
 - **[huggingface/peft](https://github.com/huggingface/peft/pull/3518)** — *Super-Tuning: a new PEFT method* (in review)
 - **[DCDmllm/InstructSAM](https://github.com/DCDmllm/InstructSAM/pull/4)** — inference fix + native C++/ggml runtime docs (**merged** ✅)
-- **[huggingface/diffusers#14480](https://github.com/huggingface/diffusers/pull/14480)** — *HRDiT: training-free 4K for FLUX* → [community modular pipeline](https://huggingface.co/remyxai/hrdit-flux-modular)
-- **[huggingface/diffusers#14520](https://github.com/huggingface/diffusers/issues/14520)** — *DyPE (+ SEGA spectral): training-free ultra-high-res for FLUX* → [community modular pipeline](https://huggingface.co/remyxai/dype-flux-modular)
-- **[huggingface/diffusers#10141](https://github.com/huggingface/diffusers/issues/10141)** — *PuLID: training-free identity personalization for FLUX* → [community modular pipeline](https://huggingface.co/remyxai/pulid-flux-modular)
-- **[sgl-project/sglang](https://github.com/sgl-project/sglang/issues/35987)** — *Batch-wise Adaptive Pruning: training-free FFN pruning running under CUDA graphs* (RFC; working impl on [our fork](https://github.com/smellslikeml/sglang/tree/feature/bwap-upstream))
+- **Training-free high-resolution FLUX** — Modular Diffusers community pipelines:
+  - [HRDiT](https://huggingface.co/remyxai/hrdit-flux-modular) — 4K generation ([diffusers#14480](https://github.com/huggingface/diffusers/pull/14480))
+  - [DyPE + SEGA](https://huggingface.co/remyxai/dype-flux-modular) — single-pass ultra-high-res + spectral speckle fix ([diffusers#14520](https://github.com/huggingface/diffusers/issues/14520))
+- **Training-free personalized FLUX** — Modular Diffusers community pipelines:
+  - [PuLID](https://huggingface.co/remyxai/pulid-flux-modular) — identity personalization from one face ([diffusers#10141](https://github.com/huggingface/diffusers/issues/10141))
+  - [CatVTON](https://huggingface.co/remyxai/catvton-flux-modular) — virtual try-on from one garment photo
+- **Batch-wise Adaptive Pruning** — *training-free FFN pruning under CUDA graphs*; working ports on [vLLM](https://github.com/smellslikeml/vllm/tree/bwap-port) and [SGLang](https://github.com/smellslikeml/sglang/tree/feature/bwap-upstream) forks + [SGLang RFC #35987](https://github.com/sgl-project/sglang/issues/35987)
 - in flight toward **LeRobot** and **TRL**
 
 ## 📣 Talks, events & media
