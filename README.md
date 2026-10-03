@@ -68,6 +68,7 @@ Often drafted with **Outrider**, then verified and refined:
 - **[huggingface/peft](https://github.com/huggingface/peft/pull/3382)** — *Riemannian-preconditioned LoRA optimizer* (**merged** ✅)
 - **[huggingface/peft](https://github.com/huggingface/peft/pull/3518)** — *Super-Tuning: a new PEFT method* (**merged** ✅)
 - **[huggingface/pytorch-image-models (timm)](https://github.com/huggingface/pytorch-image-models/pull/2767)** — *EfficientViM backbone family — pure-PyTorch Mamba-duality; converted the family's Google-Drive-only weights to safetensors on the HF Hub* (**merged** ✅)
+- **[decoderesearch/SAELens](https://github.com/decoderesearch/SAELens/pull/736)** — *AbsTopK: a signed (bidirectional) Top-K SAE activation variant* (**merged** ✅)
 - **[DCDmllm/InstructSAM](https://github.com/DCDmllm/InstructSAM/pull/4)** — inference fix + native C++/ggml runtime docs (**merged** ✅)
 - **Training-free high-resolution FLUX** — Modular Diffusers community pipelines:
   - [HRDiT](https://huggingface.co/remyxai/hrdit-flux-modular) — 4K generation ([diffusers#14480](https://github.com/huggingface/diffusers/pull/14480))
