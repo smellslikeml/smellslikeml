@@ -28,8 +28,6 @@ Open source contributions across **spatial-reasoning VLMs**, **agentic research 
 
 [![Outrider](https://img.shields.io/badge/GitHub%20Marketplace-Outrider-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/remyx-outrider) — a coding-agent harness for continuous contribution, as a GitHub Action: it discovers, implements, and validates your next great idea, wired into a real call site and delivered as a review-ready draft PR you review and merge. ([demo ▶️](https://www.youtube.com/watch?v=N_FNfZ71s2I))
 
-<p align="center"><img src="assets/outrider-pipeline.png" width="100%"></p>
-
 ## 🔀 Recent upstream contributions with Outrider
 Often drafted with **Outrider**, then verified and refined:
 - **[huggingface/peft](https://github.com/huggingface/peft/pull/3382)** — *Riemannian-preconditioned LoRA optimizer* (**merged** ✅)
