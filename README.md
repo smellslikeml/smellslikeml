@@ -22,48 +22,15 @@ Open source contributions across **spatial-reasoning VLMs**, **agentic research 
   <br><sub><b>The journey</b> — from edge computer vision to agentic research automation (2019 → 2026)</sub>
 </p>
 
-### 📊 By the numbers
-🤗 **283K+ downloads** across **70+ open models & datasets** ([@remyxai](https://huggingface.co/remyxai) — 21 models · 50 datasets)  ·  ⭐ **1.4K+ GitHub stars** across open-source projects
-
-<table>
-<tr>
-<td width="50%"><img src="https://github.com/smellslikeml/ActionAI/raw/HEAD/assets/ActionAI_main.gif" width="100%"><br><sub><b>ActionAI</b> — real-time multi-person, spatio-temporally localized activity recognition from body keypoints, on the edge</sub></td>
-<td width="50%"><img src="https://github.com/smellslikeml/nls-lumpy-torus/raw/HEAD/nls_selftrap_collapse_torus.gif" width="100%"><br><sub><b>nls-lumpy-torus</b> — exploring interaction of geometry and dispersion to observe new blowup phenomena</sub></td>
-</tr>
-</table>
-
-## ⚙️ The engines
-
-**[VQASynth](https://github.com/remyxai/VQASynth)** — the open pipeline that turns raw images into spatial-reasoning datasets: CLIP retrieval → RAM/LLaVA captions → GroundingDINO/CLIPSeg → SAM → ZoeDepth → RANSAC planes.
-
-<p align="center"><img src="https://github.com/remyxai/VQASynth/raw/HEAD/assets/VQASynth-diagram.png" width="100%"></p>
-
-**[Outrider](https://github.com/remyxai/outrider)** — *a coding-agent harness for continuous contribution.* Discovers, implements, and validates your next high-fit change as a review-ready draft PR *you* decide on. arXiv / query / brief → rank & license-enrich → preflight gates → draft into a real call site → fidelity / convention / test audits → PR, with human + automated refinement loops and full run telemetry.
-
-<p align="center"><img src="assets/outrider-pipeline.png" width="100%"></p>
-
-## 🛰️ Open models & datasets
-Fine-tuned VLMs for quantitative **spatial reasoning** (distances, sizes, directions — for robotics & embodied AI) and the synthetic-data pipelines that train them.
-
-- **[SpaceQwen2.5-VL-3B](https://huggingface.co/remyxai/SpaceQwen2.5-VL-3B-Instruct)** — grounded spatial VQA · **150K+ downloads**, the flagship
-- **[SpaceThinker-Qwen2.5VL-3B](https://huggingface.co/remyxai/SpaceThinker-Qwen2.5VL-3B)** — a *reasoning* spatial VLM (test-time compute) · 30K+ downloads
-- **[SpaceOm](https://huggingface.co/remyxai/SpaceOm)** · **[SpaceLLaVA (13B)](https://huggingface.co/remyxai/SpaceLLaVA)** · **SpaceMantis** · **SpaceQwen3-VL-2B-Thinking**
-- **Datasets:** SpaceThinker · Robo2VLM-Reasoning · OpenSpaces · SpaceJudge — spatial VQA + reasoning traces
-
-> 🗣️ The **SpatialVLM** research community credited **remyxai** for the open-source data-synthesis pipeline behind these models.
-
-## 🛠️ Open-source projects
-[![ActionAI](https://img.shields.io/github/stars/smellslikeml/ActionAI?style=flat-square&logo=github&label=ActionAI)](https://github.com/smellslikeml/ActionAI) — real-time spatio-temporal activity recognition from body keypoints; runs on Jetson-class edge devices.
-
-[![VQASynth](https://img.shields.io/github/stars/remyxai/VQASynth?style=flat-square&logo=github&label=VQASynth)](https://github.com/remyxai/VQASynth) — compose multimodal spatial-reasoning datasets from raw images. 🎹
-
-[![FFMPerative](https://img.shields.io/github/stars/remyxai/FFMPerative?style=flat-square&logo=github&label=FFMPerative)](https://github.com/remyxai/FFMPerative) — chat to compose video. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/149byzCNd17dAehVuWXkiFQ2mVe_icLCa)
+### Highlights
+🤗 **283K+ downloads** across **70+ open models & datasets** ([@remyxai](https://huggingface.co/remyxai) — 21 models · 50 datasets)  ·  
+⭐ **1.4K+ GitHub stars** across open-source github repos
 
 [![Outrider](https://img.shields.io/badge/GitHub%20Marketplace-Outrider-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/remyx-outrider) — a coding-agent harness for continuous contribution, as a GitHub Action: it discovers, implements, and validates your next great idea, wired into a real call site and delivered as a review-ready draft PR you review and merge. ([demo ▶️](https://www.youtube.com/watch?v=N_FNfZ71s2I))
 
-[![nls-lumpy-torus](https://img.shields.io/badge/gallery-nls--lumpy--torus-8a4fb0?style=flat-square&logo=github)](https://smellslikeml.github.io/nls-lumpy-torus/) — a spectral-geometry NLS/Gross–Pitaevskii solver + a gallery of numerical experiments (solitons, analog gravity & cosmology, quantum chaos, topological & Floquet transport), packaged as an **MCP toolkit for verification-grounded agent inference**.
+<p align="center"><img src="assets/outrider-pipeline.png" width="100%"></p>
 
-## 🔀 Recent upstream contributions
+## 🔀 Recent upstream contributions with Outrider
 Often drafted with **Outrider**, then verified and refined:
 - **[huggingface/peft](https://github.com/huggingface/peft/pull/3382)** — *Riemannian-preconditioned LoRA optimizer* (**merged** ✅)
 - **[huggingface/peft](https://github.com/huggingface/peft/pull/3518)** — *Super-Tuning: a new PEFT method* (**merged** ✅)
@@ -78,6 +45,29 @@ Often drafted with **Outrider**, then verified and refined:
   - [CatVTON](https://huggingface.co/remyxai/catvton-flux-modular) — virtual try-on from one garment photo
 - **Batch-wise Adaptive Pruning** — *training-free FFN pruning under CUDA graphs*; working ports on [vLLM](https://github.com/smellslikeml/vllm/tree/bwap-port) and [SGLang](https://github.com/smellslikeml/sglang/tree/feature/bwap-upstream) forks + [SGLang RFC #35987](https://github.com/sgl-project/sglang/issues/35987)
 - in flight toward **LeRobot** and **TRL**
+
+## Work in Spatial Reasoning
+
+[![VQASynth](https://img.shields.io/github/stars/remyxai/VQASynth?style=flat-square&logo=github&label=VQASynth)](https://github.com/remyxai/VQASynth) — compose multimodal spatial-reasoning datasets from raw images. 🎹
+
+<p align="center"><img src="https://github.com/remyxai/VQASynth/raw/HEAD/assets/VQASynth-diagram.png" width="100%"></p>
+
+Fine-tuned VLMs for quantitative **spatial reasoning** (distances, sizes, directions — for robotics & embodied AI) and the synthetic-data pipelines that train them.
+
+- **[SpaceQwen2.5-VL-3B](https://huggingface.co/remyxai/SpaceQwen2.5-VL-3B-Instruct)** — grounded spatial VQA · **150K+ downloads**
+- **[SpaceThinker-Qwen2.5VL-3B](https://huggingface.co/remyxai/SpaceThinker-Qwen2.5VL-3B)** — a *reasoning* spatial VLM (test-time compute) · 30K+ downloads
+- **[SpaceOm](https://huggingface.co/remyxai/SpaceOm)** · **[SpaceLLaVA (13B)](https://huggingface.co/remyxai/SpaceLLaVA)** · **SpaceMantis** · **SpaceQwen3-VL-2B-Thinking**
+- **Datasets:** SpaceThinker · Robo2VLM-Reasoning · OpenSpaces · SpaceJudge — spatial VQA + reasoning traces
+
+
+## 🛠️ Open-source projects
+[![ActionAI](https://img.shields.io/github/stars/smellslikeml/ActionAI?style=flat-square&logo=github&label=ActionAI)](https://github.com/smellslikeml/ActionAI) — real-time spatio-temporal activity recognition from body keypoints; runs on Jetson-class edge devices.
+
+[![FFMPerative](https://img.shields.io/github/stars/remyxai/FFMPerative?style=flat-square&logo=github&label=FFMPerative)](https://github.com/remyxai/FFMPerative) — chat to compose video. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/149byzCNd17dAehVuWXkiFQ2mVe_icLCa)
+
+
+[![nls-lumpy-torus](https://img.shields.io/badge/gallery-nls--lumpy--torus-8a4fb0?style=flat-square&logo=github)](https://smellslikeml.github.io/nls-lumpy-torus/) — a spectral-geometry NLS/Gross–Pitaevskii solver + a gallery of numerical experiments (solitons, analog gravity & cosmology, quantum chaos, topological & Floquet transport), packaged as an **MCP toolkit for verification-grounded agent inference**.
+
 
 ## 📣 Talks, events & media
 - 🏆 **Awards:** [#TFWorld TF 2.0 Challenge — **Winner**](https://devpost.com/software/everybody-dance-faster) (*Everybody Dance Faster* — real-time motion-transfer booth, EdgeTPU + TF 2.0) · [NVIDIA AI-at-the-Edge Challenge — **2nd prize**](https://www.hackster.io/smellslikeml/saving-bandwidth-with-anomaly-detection-16eb67) (*Saving Bandwidth with Anomaly Detection*) · [Snips.ai *Smart Homes on the Edge* — **2nd place**](https://www.hackster.io/yogai/yogai-smart-personal-trainer-f53744) (2019)
