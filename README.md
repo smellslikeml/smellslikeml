@@ -44,7 +44,7 @@ Often drafted with **Outrider**, then verified and refined:
 - **Batch-wise Adaptive Pruning** — *training-free FFN pruning under CUDA graphs*; working ports on [vLLM](https://github.com/smellslikeml/vllm/tree/bwap-port) and [SGLang](https://github.com/smellslikeml/sglang/tree/feature/bwap-upstream) forks + [SGLang RFC #35987](https://github.com/sgl-project/sglang/issues/35987)
 - in flight toward **LeRobot** and **TRL**
 
-## Work in Spatial Reasoning
+## Contributions to Spatial Reasoning
 
 [![VQASynth](https://img.shields.io/github/stars/remyxai/VQASynth?style=flat-square&logo=github&label=VQASynth)](https://github.com/remyxai/VQASynth) — compose multimodal spatial-reasoning datasets from raw images. 🎹
 
