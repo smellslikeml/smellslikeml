@@ -24,7 +24,7 @@ Open source contributions across **spatial-reasoning VLMs**, **agentic research 
 
 ### Highlights
 🤗 **283K+ downloads** across **70+ open models & datasets** ([@remyxai](https://huggingface.co/remyxai) — 21 models · 50 datasets)  ·  
-⭐ **1.4K+ GitHub stars** across open-source github repos
+⭐ **2.8K+ GitHub stars** across open-source github repos
 
 [![Outrider](https://img.shields.io/badge/GitHub%20Marketplace-Outrider-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/remyx-outrider) — a coding-agent harness for continuous contribution, as a GitHub Action: it discovers, implements, and validates your next great idea, wired into a real call site and delivered as a review-ready draft PR you review and merge. ([demo ▶️](https://www.youtube.com/watch?v=N_FNfZ71s2I))
 
