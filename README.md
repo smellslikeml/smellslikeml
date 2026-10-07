@@ -18,7 +18,7 @@ Open source contributions across **spatial-reasoning VLMs**, **agentic research 
 ---
 
 <p align="center">
-  <img src="assets/journey.png" alt="The Remyx AI journey as a transit map: edge computer vision → multimodal spatial AI → agentic research automation, 2019–2026" width="100%">
+  <img src="assets/journey.webp" alt="The Remyx AI journey as a transit map: edge computer vision → multimodal spatial AI → agentic research automation, 2019–2026" width="100%">
   <br><sub><b>The journey</b> — from edge computer vision to agentic research automation (2019 → 2026)</sub>
 </p>
 
